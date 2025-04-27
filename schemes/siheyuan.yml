@@ -1,0 +1,57 @@
+colors:
+  # 夜阑
+  black: &black "#141414"
+  # 米汤娇
+  white: &white "#eeead9"
+  # 京元
+  gray: &gray "#31322c"
+  # 烟墨
+  bright_gray: &bright_gray "#5c4f55"
+  # 胭脂虫
+  red: &red "#ab1d22"
+  # 鹤顶红
+  bright_red: &bright_red "#d24735"
+  # 官绿
+  green: &green "#2a6e3f"
+  # 石发
+  bright_green: &bright_green "#6a8d52"
+  # 姚黄
+  yellow: &yellow "#d6bc46"
+  # 嫰鹅黄
+  bright_yellow: &bright_yellow "#f2c867"
+  # 蓝采和
+  blue: &blue "#06436f"
+  # 柔蓝
+  bright_blue: &bright_blue "#106898"
+  # 齐紫
+  purple: &purple "#6c216d"
+  # 紫蒲
+  bright_purple: &bright_purple "#a6559d"
+  # 法翠
+  cyan: &cyan "#108b96"
+  # 西子
+  bright_cyan: &bright_cyan "#87c0ca"
+  # 断肠
+  beige: &beige "#ecebc2"
+  # 酂白
+  bright_beige: &bright_beige "#f6f9e4"
+
+background: *black
+foreground: *white
+base16:
+  - *gray
+  - *red
+  - *green
+  - *yellow
+  - *blue
+  - *purple
+  - *cyan
+  - *beige
+  - *bright_gray
+  - *bright_red
+  - *bright_green
+  - *bright_yellow
+  - *bright_blue
+  - *bright_purple
+  - *bright_cyan
+  - *bright_beige

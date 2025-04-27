@@ -1,0 +1,24 @@
+[colors]
+foreground = "{{ .foreground }}"
+background = "{{ .background }}"
+
+ansi = [
+  "{{ index .base16 0 }}",
+  "{{ index .base16 1 }}",
+  "{{ index .base16 2 }}",
+  "{{ index .base16 3 }}",
+  "{{ index .base16 4 }}",
+  "{{ index .base16 5 }}",
+  "{{ index .base16 6 }}",
+  "{{ index .base16 7 }}",
+]
+brights = [
+  "{{ index .base16 8 }}",
+  "{{ index .base16 9 }}",
+  "{{ index .base16 10 }}",
+  "{{ index .base16 11 }}",
+  "{{ index .base16 12 }}",
+  "{{ index .base16 13 }}",
+  "{{ index .base16 14 }}",
+  "{{ index .base16 15 }}",
+]
